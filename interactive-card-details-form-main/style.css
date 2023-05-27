@@ -1,0 +1,74 @@
+body{
+    background-color: hsl(270, 3%, 87%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.box{
+    position: relative;
+    width:80%;
+    background-color: white;
+    display: flex;
+}
+.card-front{
+    position: absolute;
+    left: 5rem;
+    top: 7rem;
+}
+.card-front img{
+    height:13rem;
+    z-index: 0;
+}
+.card-front #c-number{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.15rem;
+}
+.card-back{
+    position: absolute;
+    left: 7rem;
+    top: 22rem;
+}
+.card-back img{
+    height:13rem;
+}
+.card-back p{
+    justify-content: end;
+}
+.cvv{
+    display: flex;
+    flex-direction: row-reverse;
+    bottom:3.5rem;
+}
+.holder img{
+    height: 40rem;
+    align-self: self-start;
+}
+.card-details{
+    margin: 7rem;
+    padding: 0 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+}
+.card-details label{
+ 
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.c-number{
+    letter-spacing: 0.25rem;
+    font-size: 1.1rem;
+    width: max-content;
+}
+
+.colWise{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+}
